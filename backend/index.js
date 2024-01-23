@@ -5,7 +5,7 @@ const { contextsKey } = require('express-validator/src/base');
 
 
 const app = express();
-const DB = "YOUR MONGO URI"
+const DB = "mongodb+srv://abhiwani2001:abhishekwani01@cluster0.iooount.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose.connect(DB,{
     useNewUrlParser: true,
@@ -19,7 +19,7 @@ mongoose.connect(DB,{
 // app.use(cors())
 app.use(cors(
     {
-        origin:["https://deploy-mern-1whq.vercel.app"],
+        origin:["https://i-notebook-frontend-chi.vercel.app/login"],
         methods:["POST","GET"],
         credentials:true
     }
