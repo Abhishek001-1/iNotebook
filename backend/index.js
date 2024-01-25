@@ -19,7 +19,7 @@ mongoose.connect(DB,{
 // app.use(cors())
 app.use(cors(
     {
-        origin:["https://i-notebook-frontend-chi.vercel.app/login"],
+        origin:["https://i-notebook-frontend-pink.vercel.app/login"],
         methods:["POST","GET"],
         credentials:true
     }
