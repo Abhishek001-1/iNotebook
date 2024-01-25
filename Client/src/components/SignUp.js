@@ -11,7 +11,7 @@ const SignUp = () => {
 
   const handleClick = async (e) => {
     e.preventDefault();
-    const response = await fetch('https://inotebook-server-two.vercel.app/createuser', {
+    const response = await fetch('https://inotebook-server-two.vercel.app/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
