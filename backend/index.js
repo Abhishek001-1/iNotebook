@@ -5,7 +5,7 @@ const { contextsKey } = require('express-validator/src/base');
 
 
 const app = express();
-const DB = "mongodb+srv://abhiwani2001:abhishekwani01@cluster0.iooount.mongodb.net/?retryWrites=true&w=majority"
+const DB = YOUR_MONGO_URI
 
 mongoose.connect(DB,{
     useNewUrlParser: true,
